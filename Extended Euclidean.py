@@ -5,7 +5,6 @@ def extended_gcd(a, b):
         gcd, x, y = extended_gcd(b % a, a)
         return gcd, y - (b // a) * x, x
  
- 
 if _name_ == '_main_':
  
     gcd, x, y = extended_gcd(20, 30)
